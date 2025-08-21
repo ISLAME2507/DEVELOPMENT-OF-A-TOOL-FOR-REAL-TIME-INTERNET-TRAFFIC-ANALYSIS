@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrafAnalyzer - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+</head>
+<body>
+    <!-- Script para validar sesion-->
+    <script>
+        fetch('php/check_session.php')
+            .then(response => {
+                if (!response.ok) throw new Error('No autenticado');
+                return response.json();
+            })
+            .then(data => {
+                if (!data.authenticated) {
+                    window.location.href = 'login.php';
+                }
+
+                const hiddenField = document.createElement('input');
+                hiddenField.type = 'hidden';
+                hiddenField.id = 'current_user_id';
+                hiddenField.value = data.user_id;
+                document.body.prepend(hiddenField);
+
+
+                if (document.getElementById('nombreUsuario')) {
+                    document.getElementById('nombreUsuario').textContent = data.user_email;
+                }
+            })
+            .catch(error => {
+                console.error('Error de autenticación:', error);
+                window.location.href = 'login.php';
+            });
+    </script>
+
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div class="menu-icon" onclick="toggleControlPanel()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <h1><i class="fas fa-chart-line"></i> TrafAnalyzer</h1>
+
+        <!-- Botones de captura separados -->
+        <div class="capture-controls">
+            <button class="capture-button start-button" id="startCaptureBtn" onclick="startCapture()">
+                <i class="fas fa-play"></i> Iniciar Captura
+            </button>
+            <button class="capture-button stop-button" id="stopCaptureBtn" onclick="stopCapture()" disabled>
+                <i class="fas fa-stop"></i> Detener Captura
+            </button>
+            <div class="loader" id="loader" style="display: none;"></div>
+            <button class="capture-button clear-button" id="clearDatabaseBtn" onclick="clearDatabase()">
+                <i class="fas fa-trash-alt"></i> Vaciar Base de Datos
+            </button>
+        </div>
+        <div id="captureStatus"></div>
+        <div class="user-info">
+            <i class="fas fa-user"></i> <span id="nombreUsuario">Cargando...</span>
+        </div>
+
+        <!-- Cerrar sesión -->
+        <button class="logout-button" onclick="location.href='logout.php';">
+            <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+        </button>
+
+    </div>
+
+
+    <!-- Panel de control mejorado -->
+    <div id="controlPanel" class="control-panel">
+        <!-- Tiempos de captura -->
+        <div class="capture-times">
+            <h3>Tiempo de Captura</h3>
+            <p><strong>Inicio:</strong> <span id="inicioCaptura">Cargando...</span></p>
+            <p><strong>Fin:</strong> <span id="finCaptura">Cargando...</span></p>
+        </div>
+
+        <div class="time-filter">
+            <h3>Filtrar  La Captura por Periodos</h3>
+
+            <!-- Contenedor de información del rango -->
+            <div id="rangoInfo" class="rango-info">
+                <div class="info-item">
+                    <span class="info-label">Duracion total:</span>
+                    <span id="totalMinutes" class="info-value">Cargando...</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Rango disponible:</span>
+                    <span class="info-value">
+                        <span id="minSegundos">-</span> a
+                        <span id="maxSegundos">-</span> segundos
+                    </span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Filtro actual:</span>
+                    <span id="currentFilter" class="info-value">Esperando datos...</span>
+                </div>
+            </div>
+
+            <!-- Formulario de filtro -->
+            <form id="segundoFilterForm">
+                <div class="time-inputs">
+                    <div class="time-input-group">
+                        <label for="startSegundo">Inicio (segundos):</label>
+                        <input type="number" id="startSegundo"
+                               step="0.000001"
+                               placeholder="Cargando..."
+                               readonly
+                               title="Use flechas arriba/abajo para navegar entre registros exactos">
+                        <span class="input-hint">↑↓ para navegar entre paquetes</span>
+                    </div>
+                    <div class="time-input-group">
+                        <label for="endSegundo">Fin (segundos):</label>
+                        <input type="number" id="endSegundo"
+                               step="0.1"
+                               placeholder="Cargando..."
+                               readonly
+                               title="Use flechas arriba/abajo para navegar entre registros exactos">
+                        <span class="input-hint">↑↓ para navegar entre paquetes</span>
+                    </div>
+                </div>
+                <button type="button" id="applySegundoFilter" class="filter-button" disabled>
+                    <i class="fas fa-filter"></i> Aplicar Filtro
+                </button>
+                <div id="lastUpdateTimestamp" class="timestamp"></div>
+            </form>
+        </div>
+
+        <!-- Lista de IPs -->
+        <div class="ip-header" onclick="toggleIpList()">
+            <h3 class="ips-titulo">IPs de Origen Capturadas</h3>
+            <i id="toggleIcon" class="fas fa-chevron-down"></i> <!-- Ícono de flecha -->
+        </div>
+
+        <ul id="ipList">
+            <!-- Las IPs se cargarán dinámicamente aquí -->
+            <li><i class="fas fa-desktop"></i> 192.168.1.1</li>
+            <li><i class="fas fa-server"></i> 192.168.1.2</li>
+            <li><i class="fas fa-laptop"></i> 192.168.1.3</li>
+
+        </ul>
+    </div>
+
+    <!-- Contenedor principal del dashboard -->
+    <div class="dashboard">
+
+        <div class="row">
+            <!-- Tarjeta 1: Tabla de Protocolos -->
+            <div class="card">
+                <h2><i class="fas fa-network-wired"></i> Distribución de Paquetes por Protocolo</h2>
+                <div class="chart-container">
+                    <canvas id="protocolChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: Volumen de Tráfico Acumulativo -->
+            <div class="card">
+                <h2><i class="fas fa-chart-line"></i> Volumen de Tráfico Acumulativo</h2>
+                <div class="chart-container" style="position: relative; height: 400px; width: 100%;">
+                    <canvas id="trafficVolumeChart"></canvas>
+                </div>
+                <div class="chart-info"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Tarjeta 3: Mapa de Distribución de Paquetes  -->
+            <div class="card">
+                <h2><i class="fas fa-map-marker-alt"></i> Mapa de Distribución de Paquetes</h2>
+                <form id="ipOriginForm" style="margin-bottom: 15px;">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <label for="ipOriginInput">IP de Origen:</label>
+                        <input type="text" id="ipOriginInput" placeholder="Ingrese una IP de origen (ej. 192.168.1.1)" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; flex: 1;">
+                        <button type="button" id="filterIpOrigin" style="background-color: #4a90e2; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer;">
+                            <i class="fas fa-search"></i> Filtrar
+                        </button>
+                    </div>
+                </form>
+                <div class="chart-container">
+                    <div id="mapChart" style="width: 100%; height: 400px;"></div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4: Tráfico DNS: Evolución de Totales vs. Dominio Filtrado -->
+            <div class="card">
+                <h2><i class="fas fa-wave-square"></i> Tráfico DNS: Evolución de Totales vs. Dominio Filtrado</h2>
+                <form id="domainFlowForm" style="margin-bottom: 15px;">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <label for="domainInput">Dominio:</label>
+                        <input type="text" id="domainInput" placeholder="Ingrese un dominio (ej. google.com)" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; flex: 1;">
+                        <button type="button" id="compareDomainFlow" style="background-color: #4a90e2; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer;">
+                            <i class="fas fa-search"></i> Comparar
+                        </button>
+                    </div>
+                </form>
+                <div class="chart-container">
+                    <canvas id="flowChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- Tarjeta 5: Distribución de Tipos de Registros DNS  -->
+            <div class="card">
+                <h2><i class="fas fa-globe"></i> Distribución Totales de Tipos de Registros DNS</h2>
+                <div class="chart-container">
+                    <canvas id="dnsChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Tarjeta 6: Flujo DNS: Consultas y Respuestas entre IPs y Dominios -->
+            <div class="card" style="height: 700px;">
+                <h2><i class="fas fa-project-diagram"></i> Flujo DNS: Consultas y Respuestas entre IPs y Dominios</h2>
+                <form id="ipOriginFilterForm" style="margin-bottom: 15px;">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <label for="ipOriginFilterInput">Filtrar por IP de Origen:</label>
+                        <input type="text" id="ipOriginFilterInput" placeholder="Ingrese una IP de origen (ej. 192.168.1.1)" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; flex: 1;">
+                        <button type="button" id="filterIpOriginButton" style="background-color: #4a90e2; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer;">
+                            <i class="fas fa-search"></i> Filtrar
+                        </button>
+                    </div>
+                </form>
+                <div class="chart-container">
+                    <div id="ipNetworkChart" style="width: 100%; height: 700px;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- Tarjeta 7: Consulta de Dominios -->
+            <div class="card">
+                <h2><i class="fas fa-search"></i> Consulta de Dominios</h2>
+                <div class="chart-container" id="domainChartContainer">
+                    <form id="domainForm" method="post" action="" style="margin-bottom: 15px;">
+                        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                            <select name="tipo_consulta" id="tipo_consulta" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                                <option value="mas_visitados">Dominios más visitados</option>
+                                <option value="menos_visitados">Dominios menos visitados</option>
+                            </select>
+                            <input type="number" name="cantidad" id="cantidad" min="1" max="100" value="10" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 80px;" placeholder="Cantidad">
+                            <button type="button" id="submitDomainQuery" style="background-color: #4a90e2; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer;">Consultar</button>
+                        </div>
+                    </form>
+                    <div id="domainResults" style="overflow-y: auto; max-height: 400px;">
+                        <p class="text-center text-gray-500">Seleccione los criterios y haga clic en "Consultar"</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 8: Respuesta de Dominios -->
+            <div class="card">
+                <h2><i class="fas fa-reply"></i> Respuesta de Dominios</h2>
+                <div class="chart-container" id="domainResponseChartContainer">
+                    <form id="domainResponseForm" method="post" action="" style="margin-bottom: 15px;">
+                        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                            <select name="tipo_respuesta" id="tipo_respuesta" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                                <option value="respuestas_exitosas">Dominios Con Mayor Numero De Respuestas</option>
+                                <option value="respuestas_fallidas">Dominios Con Menor Numero De Respuestas</option>
+                            </select>
+                            <input type="number" name="cantidad_respuesta" id="cantidad_respuesta" min="1" max="100" value="10" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; width: 80px;" placeholder="Cantidad">
+                            <button type="button" id="submitDomainResponseQuery" style="background-color: #4a90e2; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer;">Consultar</button>
+                        </div>
+                    </form>
+                    <div id="domainResponseResults" style="overflow-y: auto; max-height: 400px;">
+                        <p class="text-center text-gray-500">Seleccione los criterios y haga clic en "Consultar"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- Tarjeta 9: Comparación de Dominios DNS -->
+            <div class="card">
+                <h2><i class="fas fa-chart-line"></i> Comparación de Dominios DNS</h2>
+                <div class="chart-container" style="height: 450px;">
+                    <form id="domainComparisonForm" method="POST" action="" style="margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+                        <div style="display: flex; align-items: center; flex: 1; min-width: 200px;">
+                            <label for="dominio1" style="width: 80px; white-space: nowrap;">D1:</label>
+                            <input type="text" name="dominio1" id="dominio1" style="flex: 1; padding: 8px; border-radius: 5px; border: 1px solid #ccc;" placeholder="ej. google.com">
+                        </div>
+                        <div style="display: flex; align-items: center; flex: 1; min-width: 200px;">
+                            <label for="dominio2" style="width: 80px; white-space: nowrap;">D2:</label>
+                            <input type="text" name="dominio2" id="dominio2" style="flex: 1; padding: 8px; border-radius: 5px; border: 1px solid #ccc;" placeholder="ej. facebook.com">
+                        </div>
+                        <div style="display: flex; align-items: center; flex: 1; min-width: 200px;">
+                            <label for="dominio3" style="width: 80px; white-space: nowrap;">D3:</label>
+                            <input type="text" name="dominio3" id="dominio3" style="flex: 1; padding: 8px; border-radius: 5px; border: 1px solid #ccc;" placeholder="ej. microsoft.com">
+                        </div>
+                        <div style="display: flex; align-items: center; flex: 1; min-width: 200px;">
+                            <label for="dnsRecordType" style="width: 80px; white-space: nowrap;">Tipo DNS:</label>
+                            <select id="dnsRecordType" name="dnsRecordType" style="flex: 1; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                                <option value="todo">Todos los Registros</option>
+                                <option value="A">A</option>
+                                <option value="AAAA">AAAA</option>
+                                <option value="CNAME">CNAME</option>
+                                <option value="MX">MX</option>
+                                <option value="TXT">TXT</option>
+                                <option value="NS">NS</option>
+                                <option value="SOA">SOA</option>
+                                <option value="HTTPS">HTTPS</option>
+                                <option value="PTR">PTR</option>
+                            </select>
+                        </div>
+                        <button type="button" id="compareDomains" style="background-color: #4a90e2; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; margin-left: auto;">
+                            <i class="fas fa-search"></i> Comparar Dominios
+                        </button>
+                    </form>
+                    <div id="loadingIndicator" style="display: none; text-align: center; margin: 10px 0;">
+                        <i class="fas fa-spinner fa-spin"></i> Cargando datos...
+                    </div>
+                    <div id="alertContainer"></div>
+                    <div id="chartContainer" style="height: 350px; position: relative;">
+                        <canvas id="dnsQueryChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="chartModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-chart-container">
+                <canvas id="modalChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div id="mapModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-chart-container">
+                <canvas id="modalMapChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div id="chartModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7);">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-chart-container">
+                <canvas id="modalDnsQueryChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        &copy; 2025 TrafAnalyzer. Todos los derechos reservados.
+    </div>
+
+    <!--Script para nombre de usuario --->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch('php/usuario_nombre.php')
+                .then(response => response.text())
+                .then(nombre => {
+                    const spanNombre = document.getElementById('nombreUsuario');
+                    if (spanNombre) {
+                        spanNombre.textContent = nombre;
+                    }
+                })
+                .catch(error => {
+                    console.error("Error al obtener el nombre del usuario:", error);
+                });
+        });
+    </script>
+
+    <!-- Scripts -->
+
+    <script src="scripts/capture.js"></script>
+    <script src="scripts/vaciarBD.js"></script>
+    <script src="scripts/controlPanel.js"></script>
+    <script src="scripts/protocolChart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/dnsChart.js"></script>
+    <script src="scripts/flowChart.js"></script>
+    <script src="scripts/volumenChart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="scripts/mapChart.js"></script>
+    <script src="scripts/ipNetworkChart.js"></script>
+    <script src="scripts/domainQuery.js"></script>
+    <script src="scripts/domainResp.js"></script>
+    <script src="scripts/domainComparison.js"></script>
+    <script src="scripts/time.js"></script>
+    <script src="scripts/analizarPeriodo.js"></script>
+    <script src="scripts/modal.js"></script>
+    <script src="nombreUsuario.js"></script>
+
+</body>
+</html>
