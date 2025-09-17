@@ -1,0 +1,1294 @@
+
+
+==== 2025-04-24 11:48:10 ====
+Inicio de ejecución
+Usuario: desktop-l4f8d4m\hp
+
+GET: Array
+(
+    [user_id] => 3
+)
+
+Comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 3
+Resultado: 1
+Salida: Array
+(
+)
+
+ERROR: Array
+(
+    [timestamp] => 2025-04-24 11:48:11
+    [error] => Error al ejecutar Python (Código: 1)
+    [type] => RuntimeException
+    [code] => 0
+    [file] => C:\xampp\htdocs\PacketVis\php\start_capture.php
+    [line] => 56
+    [trace] => #0 {main}
+)
+
+
+
+==== 2025-04-24 11:53:29 ====
+Inicio de ejecución
+Usuario: desktop-l4f8d4m\hp
+
+GET: Array
+(
+    [user_id] => 3
+)
+
+ENV: Array
+(
+)
+
+PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\MATLAB\MATLAB Runtime\R2023b\runtime\win64;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\MATLAB\R2023b\bin;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\hp\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\hp\AppData\Local\Programs\Python\Python313\;C:\Users\hp\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\hp\.dotnet\tools;C:\Program Files\Wireshark;C:\WiresharkScripts;C:\Users\hp\Desktop\Practica_Wireshark_Mysql\MaxMind;C:\Users\hp\AppData\Roaming\Composer\vendor\bin
+Comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 3
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 4, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Array
+(
+    [timestamp] => 2025-04-24 11:53:30
+    [error] => Error al ejecutar Python (Código: 1). Salida: Traceback (most recent call last):
+  File "C:\WiresharkScripts\script.py", line 4, in <module>
+    from scapy.all import *
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    from scapy.data import *
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+                                                ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        os.environ["SystemRoot"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        "services",
+        ^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    if cachepath.exists():
+       ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    self.stat(follow_symlinks=follow_symlinks)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+    [type] => RuntimeException
+    [code] => 0
+    [file] => C:\xampp\htdocs\PacketVis\php\start_capture.php
+    [line] => 64
+    [trace] => #0 {main}
+)
+
+
+
+==== 2025-04-24 11:59:15 ====
+Inicio de ejecución
+Usuario: desktop-l4f8d4m\hp
+
+GET: Array
+(
+    [user_id] => 3
+)
+
+ENV: Array
+(
+)
+
+PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\MATLAB\MATLAB Runtime\R2023b\runtime\win64;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\MATLAB\R2023b\bin;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\hp\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\hp\AppData\Local\Programs\Python\Python313\;C:\Users\hp\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\hp\.dotnet\tools;C:\Program Files\Wireshark;C:\WiresharkScripts;C:\Users\hp\Desktop\Practica_Wireshark_Mysql\MaxMind;C:\Users\hp\AppData\Roaming\Composer\vendor\bin
+Comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 3
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 5, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Array
+(
+    [timestamp] => 2025-04-24 11:59:16
+    [error] => Error al ejecutar Python (Código: 1). Salida: Traceback (most recent call last):
+  File "C:\WiresharkScripts\script.py", line 5, in <module>
+    from scapy.all import *
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    from scapy.data import *
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+                                                ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+        os.environ["SystemRoot"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        "services",
+        ^^^^^^^^^^^
+    ))
+    ^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    if cachepath.exists():
+       ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    self.stat(follow_symlinks=follow_symlinks)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+    [type] => RuntimeException
+    [code] => 0
+    [file] => C:\xampp\htdocs\PacketVis\php\start_capture.php
+    [line] => 64
+    [trace] => #0 {main}
+)
+
+
+
+==== 2025-04-24 15:56:07 ====
+Iniciando captura para usuario: 2
+Ejecutando comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 2 2>&1
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 4, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Error en script Python (Código: 1)
+
+
+==== 2025-04-24 15:56:08 ====
+Iniciando captura para usuario: 2
+Ejecutando comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 2 2>&1
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 4, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Error en script Python (Código: 1)
+
+
+==== 2025-04-24 15:56:20 ====
+Iniciando captura para usuario: 2
+Ejecutando comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 2 2>&1
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 4, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Error en script Python (Código: 1)
+
+
+==== 2025-04-24 15:56:23 ====
+Iniciando captura para usuario: 2
+Ejecutando comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 2 2>&1
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 4, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Error en script Python (Código: 1)
+
+
+==== 2025-04-24 16:21:01 ====
+Iniciando captura para usuario: 2
+Ejecutando comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 2 2>&1
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 14, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Error en script Python (Código: 1)
+
+
+==== 2025-04-24 16:21:02 ====
+Iniciando captura para usuario: 2
+Ejecutando comando: C:^\Users^\hp^\AppData^\Local^\Programs^\Python^\Python313^\python.exe "C:\WiresharkScripts\script.py" 2 2>&1
+Resultado: 1
+Salida: Array
+(
+    [0] => Traceback (most recent call last):
+    [1] =>   File "C:\WiresharkScripts\script.py", line 14, in <module>
+    [2] =>     from scapy.all import *
+    [3] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\all.py", line 13, in <module>
+    [4] =>     from scapy.data import *
+    [5] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 595, in <module>
+    [6] =>     TCP_SERVICES, UDP_SERVICES, SCTP_SERVICES = load_services(os.path.join(
+    [7] =>                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+    [8] =>         os.environ["SystemRoot"],
+    [9] =>         ^^^^^^^^^^^^^^^^^^^^^^^^^
+    [10] =>     ...<3 lines>...
+    [11] =>         "services",
+    [12] =>         ^^^^^^^^^^^
+    [13] =>     ))
+    [14] =>     ^^
+    [15] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\scapy\data.py", line 312, in load
+    [16] =>     if cachepath.exists():
+    [17] =>        ~~~~~~~~~~~~~~~~^^
+    [18] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 450, in exists
+    [19] =>     self.stat(follow_symlinks=follow_symlinks)
+    [20] =>     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [21] =>   File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 515, in stat
+    [22] =>     return os.stat(self, follow_symlinks=follow_symlinks)
+    [23] =>            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    [24] => PermissionError: [WinError 5] Acceso denegado: 'C:\\Users\\hp\\.cache\\scapy\\services'
+)
+
+ERROR: Error en script Python (Código: 1)
+
+
+==== 2025-04-24 16:32:52 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:32:52 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:33:01 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:33:03 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:34:35 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:34:35 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:35:14 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 16:35:14 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 16:39:04 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:39:04 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:50:25 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 16:50:25 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-24 17:06:52 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:06:52 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:09:16 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:09:17 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:09:26 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:09:48 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:09:48 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:13:58 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:13:58 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 17:17:05 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 3
+    [user_email] => aymane@gmail.com
+    [cliente_id] => 3
+)
+
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 17:17:05 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 3
+    [user_email] => aymane@gmail.com
+    [cliente_id] => 3
+)
+
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 17:19:50 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 17:19:50 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 21:58:51 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 21:58:51 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 21:59:07 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 21:59:07 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:03:43 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:03:43 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:03:54 ====
+Request received: Array
+(
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:03:56 ====
+Request received: Array
+(
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:08:54 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:08:54 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Sending response: 
+
+
+==== 2025-04-24 22:09:43 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario2
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:09:49 ====
+Request received: Array
+(
+    [user_id] => <?php echo isset($_SESSION['user_id']) ? $_SESSION['user_id'] : '2'; ?>
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario2
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:14:43 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario2
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:14:48 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 2
+    [user_email] => islame@gmail.com
+    [cliente_id] => 2
+)
+
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario2
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:15:55 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 3
+    [user_email] => aymane@gmail.com
+    [cliente_id] => 3
+)
+
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario3
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:16:01 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 3
+    [user_email] => aymane@gmail.com
+    [cliente_id] => 3
+)
+
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario3
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:20:22 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 3
+    [user_email] => aymane@gmail.com
+    [cliente_id] => 3
+)
+
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario3
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:20:27 ====
+Request received: Array
+(
+    [user_id] => 2
+)
+
+Session: Array
+(
+    [user_id] => 3
+    [user_email] => aymane@gmail.com
+    [cliente_id] => 3
+)
+
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+Task status: Array
+(
+    [0] => 
+    [1] => Carpeta: \
+    [2] => Nombre de host:           DESKTOP-L4F8D4M
+    [3] => Nombre de tarea:          \CapturaWireshark_Usuario3
+    [4] => Hora pr¢xima ejecuci¢n:   N/A
+    [5] => Estado:                   En cola
+    [6] => Modo de inicio de sesi¢n: Solo interactivo
+)
+
+Warning: Status file was not created within timeout. Task may still be starting.
+Sending response: 
+
+
+==== 2025-04-24 22:23:12 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 22:23:13 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+
+
+
+==== 2025-04-24 22:31:18 ====
+Iniciando proceso para usuario: 3
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario3"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario3".
+)
+

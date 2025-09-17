@@ -1,0 +1,800 @@
+2025-04-25 15:23:17,837 - INFO - Iniciando captura para usuario 2
+2025-04-25 15:47:08,419 - INFO - Iniciando captura para usuario 2
+2025-04-25 16:19:56,468 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-25 16:19:56,468 - INFO - Iniciando captura para usuario 2
+2025-04-25 16:19:56,505 - INFO - Caché DNS borrada correctamente
+2025-04-25 16:19:56,509 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:30:20,175 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 14:30:20,176 - INFO - Iniciando captura para usuario 2
+2025-04-26 14:30:20,226 - INFO - Caché DNS borrada correctamente
+2025-04-26 14:30:20,227 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:52:28,424 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 14:52:28,427 - INFO - Iniciando captura para usuario 2
+2025-04-26 14:52:28,478 - INFO - Caché DNS borrada correctamente
+2025-04-26 14:52:28,479 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:53:12,582 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 14:53:13,258 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 14:53:13,259 - INFO - Captura finalizada. Paquetes procesados: 72
+2025-04-26 15:01:41,295 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 15:01:41,298 - INFO - Iniciando captura para usuario 2
+2025-04-26 15:01:41,329 - INFO - Caché DNS borrada correctamente
+2025-04-26 15:01:41,330 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 15:02:40,379 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 15:02:41,900 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 15:02:41,901 - INFO - Captura finalizada. Paquetes procesados: 122
+2025-04-26 15:34:14,203 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 15:34:14,207 - INFO - Iniciando captura para usuario 2
+2025-04-26 15:34:14,242 - INFO - Caché DNS borrada correctamente
+2025-04-26 15:34:14,243 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 15:35:20,429 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 15:35:20,967 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 15:35:20,968 - INFO - Captura finalizada. Paquetes procesados: 138
+2025-04-26 16:10:19,620 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 16:10:19,621 - INFO - Iniciando captura para usuario 2
+2025-04-26 16:10:19,709 - INFO - Caché DNS borrada correctamente
+2025-04-26 16:10:19,713 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 16:10:55,817 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 16:10:56,650 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 16:10:56,662 - INFO - Captura finalizada. Paquetes procesados: 56
+2025-04-26 21:26:07,621 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 21:26:07,622 - INFO - Iniciando captura para usuario 2
+2025-04-26 21:26:07,669 - INFO - Caché DNS borrada correctamente
+2025-04-26 21:26:07,671 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 21:28:55,000 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 21:28:55,336 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 21:28:55,337 - INFO - Captura finalizada. Paquetes procesados: 351
+2025-04-27 15:12:56,975 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-27 15:12:56,976 - INFO - Iniciando captura para usuario 2
+2025-04-27 15:12:57,039 - INFO - Caché DNS borrada correctamente
+2025-04-27 15:12:57,041 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-27 15:14:43,404 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-27 15:14:43,495 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-27 15:14:43,498 - INFO - Captura finalizada. Paquetes procesados: 480
+2025-05-22 12:09:00,513 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 12:09:00,514 - INFO - Iniciando captura para usuario 2
+2025-05-22 12:09:00,576 - INFO - Caché DNS borrada correctamente
+2025-05-22 12:09:00,578 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 12:11:01,709 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 12:11:02,231 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 12:11:02,233 - INFO - Captura finalizada. Paquetes procesados: 682
+2025-05-22 13:41:35,539 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 13:41:35,539 - INFO - Iniciando captura para usuario 2
+2025-05-22 13:41:35,585 - INFO - Caché DNS borrada correctamente
+2025-05-22 13:41:35,588 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 13:45:28,529 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 13:45:28,875 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 13:45:28,877 - INFO - Captura finalizada. Paquetes procesados: 1414
+2025-05-22 13:51:36,606 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 13:51:36,606 - INFO - Iniciando captura para usuario 2
+2025-05-22 13:51:36,704 - INFO - Caché DNS borrada correctamente
+2025-05-22 13:51:36,706 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 13:54:46,304 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 13:54:46,910 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 13:54:46,912 - INFO - Captura finalizada. Paquetes procesados: 1086
+2025-05-22 15:56:57,041 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 15:56:57,042 - INFO - Iniciando captura para usuario 2
+2025-05-22 15:56:57,110 - INFO - Caché DNS borrada correctamente
+2025-05-22 15:56:57,112 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 15:57:26,333 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 15:57:26,683 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 15:57:26,686 - INFO - Captura finalizada. Paquetes procesados: 122
+2025-05-22 16:08:36,601 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 16:08:36,602 - INFO - Iniciando captura para usuario 2
+2025-05-22 16:08:36,794 - INFO - Caché DNS borrada correctamente
+2025-05-22 16:08:36,796 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 16:12:05,245 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 16:12:05,601 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 16:12:05,617 - INFO - Captura finalizada. Paquetes procesados: 1455
+2025-05-22 22:43:41,778 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 22:43:41,779 - INFO - Iniciando captura para usuario 2
+2025-05-22 22:43:41,839 - INFO - Caché DNS borrada correctamente
+2025-05-22 22:43:41,844 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 22:48:01,588 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 22:48:01,626 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 22:48:01,627 - INFO - Captura finalizada. Paquetes procesados: 1175
+2025-05-25 19:16:42,380 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-25 19:16:42,384 - INFO - Iniciando captura para usuario 2
+2025-05-25 19:16:42,534 - INFO - Caché DNS borrada correctamente
+2025-05-25 19:16:42,536 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-25 19:19:33,152 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-25 19:19:33,234 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-25 19:19:33,239 - INFO - Captura finalizada. Paquetes procesados: 1112
+2025-05-25 19:38:29,069 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-25 19:38:29,069 - INFO - Iniciando captura para usuario 2
+2025-05-25 19:38:29,124 - INFO - Caché DNS borrada correctamente
+2025-05-25 19:38:29,125 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 12:44:40,848 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 12:44:40,849 - INFO - Iniciando captura para usuario 2
+2025-05-26 12:44:40,923 - INFO - Caché DNS borrada correctamente
+2025-05-26 12:44:40,924 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 13:05:14,332 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 13:05:14,333 - INFO - Iniciando captura para usuario 2
+2025-05-26 13:05:14,385 - INFO - Caché DNS borrada correctamente
+2025-05-26 13:05:14,386 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 13:19:35,215 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 13:19:35,216 - INFO - Iniciando captura para usuario 2
+2025-05-26 13:19:35,279 - INFO - Caché DNS borrada correctamente
+2025-05-26 13:19:35,280 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 14:14:26,331 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 14:14:26,332 - INFO - Iniciando captura para usuario 2
+2025-05-26 14:14:26,399 - INFO - Caché DNS borrada correctamente
+2025-05-26 14:14:26,401 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 14:17:55,983 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 14:17:56,024 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 14:17:56,027 - INFO - Captura finalizada. Paquetes procesados: 1221
+2025-05-26 14:35:20,685 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 14:35:20,686 - INFO - Iniciando captura para usuario 2
+2025-05-26 14:35:20,735 - INFO - Caché DNS borrada correctamente
+2025-05-26 14:35:20,737 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 14:36:06,272 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 14:36:06,423 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 14:36:06,426 - INFO - Captura finalizada. Paquetes procesados: 195
+2025-05-26 14:36:42,128 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 14:36:42,129 - INFO - Iniciando captura para usuario 2
+2025-05-26 14:36:42,204 - INFO - Caché DNS borrada correctamente
+2025-05-26 14:36:42,207 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 14:37:03,577 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 14:37:03,857 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 14:37:03,861 - INFO - Captura finalizada. Paquetes procesados: 111
+2025-05-26 22:02:54,330 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 22:02:54,334 - INFO - Iniciando captura para usuario 2
+2025-05-26 22:02:54,420 - INFO - Caché DNS borrada correctamente
+2025-05-26 22:02:54,427 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 22:03:34,625 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 22:03:36,186 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 22:03:36,187 - INFO - Captura finalizada. Paquetes procesados: 52
+2025-05-27 11:34:46,313 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-27 11:34:46,350 - INFO - Iniciando captura para usuario 2
+2025-05-27 11:34:46,478 - INFO - Caché DNS borrada correctamente
+2025-05-27 11:34:46,482 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-27 11:34:55,514 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-27 11:35:08,604 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-27 11:35:08,606 - INFO - Captura finalizada. Paquetes procesados: 1
+2025-05-27 11:36:46,882 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-27 11:36:46,883 - INFO - Iniciando captura para usuario 2
+2025-05-27 11:36:46,949 - INFO - Caché DNS borrada correctamente
+2025-05-27 11:36:46,950 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-27 11:39:54,057 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-27 11:39:54,478 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-27 11:39:54,479 - INFO - Captura finalizada. Paquetes procesados: 1186
+2025-05-27 11:47:44,263 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-27 11:47:44,265 - INFO - Iniciando captura para usuario 2
+2025-05-27 11:47:44,343 - INFO - Caché DNS borrada correctamente
+2025-05-27 11:47:44,344 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-27 11:50:01,318 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-27 11:50:01,337 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-27 11:50:01,338 - INFO - Captura finalizada. Paquetes procesados: 1234
+2025-05-27 12:14:49,102 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-27 12:14:49,104 - INFO - Iniciando captura para usuario 2
+2025-05-27 12:14:49,282 - INFO - Caché DNS borrada correctamente
+2025-05-27 12:14:49,287 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-27 12:15:13,781 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-27 12:15:13,815 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-27 12:15:13,816 - INFO - Captura finalizada. Paquetes procesados: 193
+2025-05-28 12:13:15,300 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-28 12:13:15,301 - INFO - Iniciando captura para usuario 2
+2025-05-28 12:13:15,360 - INFO - Caché DNS borrada correctamente
+2025-05-28 12:13:15,361 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-28 12:15:31,949 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-28 12:15:31,993 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-28 12:15:31,995 - INFO - Captura finalizada. Paquetes procesados: 1283
+2025-05-29 14:51:08,526 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-29 14:51:08,527 - INFO - Iniciando captura para usuario 2
+2025-05-29 14:51:08,584 - INFO - Caché DNS borrada correctamente
+2025-05-29 14:51:08,589 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-29 14:55:50,245 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-29 14:55:50,681 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-29 14:55:50,683 - INFO - Captura finalizada. Paquetes procesados: 1121
+2025-06-01 15:07:26,910 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-01 15:07:26,911 - INFO - Iniciando captura para usuario 2
+2025-06-01 15:07:26,948 - INFO - Caché DNS borrada correctamente
+2025-06-01 15:07:26,949 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 13:15:24,250 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 13:15:24,251 - INFO - Iniciando captura para usuario 2
+2025-06-18 13:15:24,318 - INFO - Caché DNS borrada correctamente
+2025-06-18 13:15:24,319 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 13:19:18,326 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 13:19:18,820 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 13:19:18,821 - INFO - Captura finalizada. Paquetes procesados: 1083
+2025-06-18 14:33:41,107 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 14:33:41,108 - INFO - Iniciando captura para usuario 2
+2025-06-18 14:33:41,180 - INFO - Caché DNS borrada correctamente
+2025-06-18 14:33:41,185 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 14:34:31,037 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 14:34:31,244 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 14:34:31,247 - INFO - Captura finalizada. Paquetes procesados: 439
+2025-06-18 14:36:16,458 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 14:36:16,460 - INFO - Iniciando captura para usuario 2
+2025-06-18 14:36:16,528 - INFO - Caché DNS borrada correctamente
+2025-06-18 14:36:16,530 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 14:38:25,050 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 14:38:25,075 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 14:38:25,076 - INFO - Captura finalizada. Paquetes procesados: 1351
+2025-06-18 14:57:13,479 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 14:57:13,479 - INFO - Iniciando captura para usuario 2
+2025-06-18 14:57:13,547 - INFO - Caché DNS borrada correctamente
+2025-06-18 14:57:13,551 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 14:59:19,823 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 14:59:20,022 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 14:59:20,023 - INFO - Captura finalizada. Paquetes procesados: 705
+2025-06-18 15:25:38,608 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 15:25:38,609 - INFO - Iniciando captura para usuario 2
+2025-06-18 15:25:38,695 - INFO - Caché DNS borrada correctamente
+2025-06-18 15:25:38,703 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 15:27:49,372 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 15:27:49,838 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 15:27:49,846 - INFO - Captura finalizada. Paquetes procesados: 828
+2025-06-18 15:42:15,124 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 15:42:15,125 - INFO - Iniciando captura para usuario 2
+2025-06-18 15:42:15,197 - INFO - Caché DNS borrada correctamente
+2025-06-18 15:42:15,202 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 15:45:05,838 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 15:45:06,265 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 15:45:06,266 - INFO - Captura finalizada. Paquetes procesados: 1180
+2025-06-18 15:58:52,901 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 15:58:52,901 - INFO - Iniciando captura para usuario 2
+2025-06-18 15:58:52,965 - INFO - Caché DNS borrada correctamente
+2025-06-18 15:58:52,966 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 16:01:58,708 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 16:01:58,752 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 16:01:58,753 - INFO - Captura finalizada. Paquetes procesados: 1292
+2025-06-18 16:48:09,677 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 16:48:09,677 - INFO - Iniciando captura para usuario 2
+2025-06-18 16:48:09,718 - INFO - Caché DNS borrada correctamente
+2025-06-18 16:48:09,719 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 16:52:09,342 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 16:52:09,407 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 16:52:09,410 - INFO - Captura finalizada. Paquetes procesados: 1313
+2025-06-18 17:23:10,175 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-18 17:23:10,176 - INFO - Iniciando captura para usuario 2
+2025-06-18 17:23:10,204 - INFO - Caché DNS borrada correctamente
+2025-06-18 17:23:10,205 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-18 17:24:46,759 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-18 17:24:46,898 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-18 17:24:46,898 - INFO - Captura finalizada. Paquetes procesados: 406
+2025-06-19 14:26:50,354 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 14:26:50,355 - INFO - Iniciando captura para usuario 2
+2025-06-19 14:26:50,469 - INFO - Caché DNS borrada correctamente
+2025-06-19 14:26:50,471 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 14:29:14,058 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 14:29:14,097 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 14:29:14,101 - INFO - Captura finalizada. Paquetes procesados: 1144
+2025-06-19 14:51:46,994 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 14:51:46,996 - INFO - Iniciando captura para usuario 2
+2025-06-19 14:51:47,072 - INFO - Caché DNS borrada correctamente
+2025-06-19 14:51:47,074 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 14:54:02,245 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 14:54:02,274 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 14:54:02,275 - INFO - Captura finalizada. Paquetes procesados: 1166
+2025-06-19 22:27:34,050 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 22:27:34,051 - INFO - Iniciando captura para usuario 2
+2025-06-19 22:27:34,162 - INFO - Caché DNS borrada correctamente
+2025-06-19 22:27:34,164 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 22:29:51,706 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 22:29:51,736 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 22:29:51,737 - INFO - Captura finalizada. Paquetes procesados: 689
+2025-06-19 22:32:40,361 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 22:32:40,361 - INFO - Iniciando captura para usuario 2
+2025-06-19 22:32:40,425 - INFO - Caché DNS borrada correctamente
+2025-06-19 22:32:40,427 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 22:34:01,756 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 22:34:01,810 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 22:34:01,812 - INFO - Captura finalizada. Paquetes procesados: 329
+2025-06-19 22:44:22,864 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 22:44:22,864 - INFO - Iniciando captura para usuario 2
+2025-06-19 22:44:22,936 - INFO - Caché DNS borrada correctamente
+2025-06-19 22:44:22,939 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 22:46:11,921 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 22:46:11,977 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 22:46:11,980 - INFO - Captura finalizada. Paquetes procesados: 575
+2025-06-19 23:01:06,756 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 23:01:06,757 - INFO - Iniciando captura para usuario 2
+2025-06-19 23:01:06,819 - INFO - Caché DNS borrada correctamente
+2025-06-19 23:01:06,820 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 23:02:18,418 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 23:02:18,765 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 23:02:18,766 - INFO - Captura finalizada. Paquetes procesados: 257
+2025-06-19 23:08:49,708 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 23:08:49,708 - INFO - Iniciando captura para usuario 2
+2025-06-19 23:08:49,768 - INFO - Caché DNS borrada correctamente
+2025-06-19 23:08:49,769 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 23:10:28,141 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 23:10:28,622 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 23:10:28,624 - INFO - Captura finalizada. Paquetes procesados: 487
+2025-06-19 23:20:33,976 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 23:20:33,977 - INFO - Iniciando captura para usuario 2
+2025-06-19 23:20:34,049 - INFO - Caché DNS borrada correctamente
+2025-06-19 23:20:34,050 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 23:22:54,638 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 23:22:54,731 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 23:22:54,736 - INFO - Captura finalizada. Paquetes procesados: 1159
+2025-06-19 23:36:23,597 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 23:36:23,598 - INFO - Iniciando captura para usuario 2
+2025-06-19 23:36:23,678 - INFO - Caché DNS borrada correctamente
+2025-06-19 23:36:23,683 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 23:38:52,124 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 23:38:52,275 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 23:38:52,277 - INFO - Captura finalizada. Paquetes procesados: 734
+2025-06-20 00:55:13,586 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 00:55:13,586 - INFO - Iniciando captura para usuario 2
+2025-06-20 00:55:13,759 - INFO - Caché DNS borrada correctamente
+2025-06-20 00:55:13,773 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 00:56:13,643 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-20 15:28:54,583 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 15:28:54,584 - INFO - Iniciando captura para usuario 2
+2025-06-20 15:28:54,624 - INFO - Caché DNS borrada correctamente
+2025-06-20 15:28:54,626 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 15:28:54,626 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-20 15:29:02,980 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-20 15:29:02,980 - INFO - Captura finalizada. Paquetes procesados: 1
+2025-06-20 15:30:18,672 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 15:30:18,672 - INFO - Iniciando captura para usuario 2
+2025-06-20 15:30:18,711 - INFO - Caché DNS borrada correctamente
+2025-06-20 15:30:18,711 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 15:33:28,444 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-20 15:33:30,826 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-20 15:33:30,826 - INFO - Captura finalizada. Paquetes procesados: 238
+2025-06-20 15:46:17,674 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 15:46:17,675 - INFO - Iniciando captura para usuario 2
+2025-06-20 15:46:17,701 - INFO - Caché DNS borrada correctamente
+2025-06-20 15:46:17,707 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 15:51:15,664 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-20 15:51:16,286 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-20 15:51:16,287 - INFO - Captura finalizada. Paquetes procesados: 670
+2025-06-20 17:00:59,284 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 17:00:59,285 - INFO - Iniciando captura para usuario 2
+2025-06-20 17:00:59,398 - INFO - Caché DNS borrada correctamente
+2025-06-20 17:00:59,400 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 17:02:48,462 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-20 17:02:50,644 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-20 17:02:50,650 - INFO - Captura finalizada. Paquetes procesados: 164
+2025-06-20 17:12:16,169 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 17:12:16,170 - INFO - Iniciando captura para usuario 2
+2025-06-20 17:12:16,264 - INFO - Caché DNS borrada correctamente
+2025-06-20 17:12:16,265 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 17:38:42,389 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 17:38:42,389 - INFO - Iniciando captura para usuario 2
+2025-06-20 17:38:42,463 - INFO - Caché DNS borrada correctamente
+2025-06-20 17:38:42,468 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 20:18:47,240 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 20:18:47,241 - INFO - Iniciando captura para usuario 2
+2025-06-20 20:18:47,311 - INFO - Caché DNS borrada correctamente
+2025-06-20 20:18:47,312 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-20 20:20:12,096 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-20 20:20:12,232 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-20 20:20:12,233 - INFO - Captura finalizada. Paquetes procesados: 409
+2025-06-22 22:12:50,289 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-22 22:12:50,298 - INFO - Iniciando captura para usuario 2
+2025-06-22 22:12:50,544 - INFO - Caché DNS borrada correctamente
+2025-06-22 22:12:50,548 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-22 22:16:14,675 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-22 22:16:15,086 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-22 22:16:15,247 - INFO - Captura finalizada. Paquetes procesados: 1206
+2025-06-22 22:32:22,577 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-22 22:32:22,578 - INFO - Iniciando captura para usuario 2
+2025-06-22 22:32:22,847 - INFO - Caché DNS borrada correctamente
+2025-06-22 22:32:22,851 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-22 22:53:56,384 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-22 22:53:56,384 - INFO - Iniciando captura para usuario 2
+2025-06-22 22:53:56,539 - INFO - Caché DNS borrada correctamente
+2025-06-22 22:53:56,548 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-22 22:57:18,283 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-22 22:57:20,009 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-22 22:57:20,010 - INFO - Captura finalizada. Paquetes procesados: 1306
+2025-06-23 01:05:15,295 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 01:05:15,295 - INFO - Iniciando captura para usuario 2
+2025-06-23 01:05:15,330 - INFO - Caché DNS borrada correctamente
+2025-06-23 01:05:15,334 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 01:06:49,760 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 01:06:49,793 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 01:06:49,797 - INFO - Captura finalizada. Paquetes procesados: 517
+2025-06-23 01:16:09,161 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 01:16:09,162 - INFO - Iniciando captura para usuario 2
+2025-06-23 01:16:09,198 - INFO - Caché DNS borrada correctamente
+2025-06-23 01:16:09,199 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 01:21:24,809 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 01:21:24,809 - INFO - Iniciando captura para usuario 2
+2025-06-23 01:21:24,845 - INFO - Caché DNS borrada correctamente
+2025-06-23 01:21:24,846 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 01:22:48,269 - INFO - Archivo de estado eliminado
+2025-06-23 01:22:48,272 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 01:22:48,575 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 01:22:48,584 - INFO - Captura finalizada. Paquetes procesados: 710
+2025-06-23 12:21:59,437 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 12:21:59,438 - INFO - Iniciando captura para usuario 2
+2025-06-23 12:21:59,612 - INFO - Caché DNS borrada correctamente
+2025-06-23 12:21:59,624 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 12:26:26,604 - INFO - Archivo de estado eliminado
+2025-06-23 12:26:26,604 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 12:26:27,348 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 12:26:27,372 - INFO - Captura finalizada. Paquetes procesados: 1145
+2025-06-23 12:46:49,469 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 12:46:49,472 - INFO - Iniciando captura para usuario 2
+2025-06-23 12:46:49,591 - INFO - Caché DNS borrada correctamente
+2025-06-23 12:46:49,594 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 12:48:49,961 - INFO - Archivo de estado eliminado
+2025-06-23 12:48:49,963 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 12:48:50,028 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 12:48:50,029 - INFO - Captura finalizada. Paquetes procesados: 553
+2025-06-23 13:00:59,841 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 13:00:59,842 - INFO - Iniciando captura para usuario 2
+2025-06-23 13:01:00,207 - INFO - Caché DNS borrada correctamente
+2025-06-23 13:01:00,210 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 13:01:50,984 - INFO - Archivo de estado eliminado
+2025-06-23 13:01:50,996 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 13:01:51,080 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 13:01:51,083 - INFO - Captura finalizada. Paquetes procesados: 159
+2025-06-23 15:02:01,963 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 15:02:01,978 - INFO - Iniciando captura para usuario 2
+2025-06-23 15:02:02,120 - INFO - Caché DNS borrada correctamente
+2025-06-23 15:02:02,139 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 15:03:59,308 - INFO - Archivo de estado eliminado
+2025-06-23 15:03:59,309 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 15:03:59,505 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 15:03:59,506 - INFO - Captura finalizada. Paquetes procesados: 569
+2025-06-23 19:36:46,083 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 19:36:46,083 - INFO - Iniciando captura para usuario 2
+2025-06-23 19:36:46,137 - INFO - Caché DNS borrada correctamente
+2025-06-23 19:36:46,138 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 19:40:56,145 - INFO - Archivo de estado eliminado
+2025-06-23 19:40:56,145 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 19:40:58,268 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 19:40:58,269 - INFO - Captura finalizada. Paquetes procesados: 474
+2025-06-23 19:50:51,619 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 19:50:51,620 - INFO - Iniciando captura para usuario 2
+2025-06-23 19:50:51,661 - INFO - Caché DNS borrada correctamente
+2025-06-23 19:50:51,667 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 19:53:47,911 - INFO - Archivo de estado eliminado
+2025-06-23 19:53:47,912 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 19:53:49,241 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 19:53:49,245 - INFO - Captura finalizada. Paquetes procesados: 1059
+2025-06-23 20:00:11,487 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 20:00:11,487 - INFO - Iniciando captura para usuario 2
+2025-06-23 20:00:11,534 - INFO - Caché DNS borrada correctamente
+2025-06-23 20:00:11,535 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 20:00:14,546 - INFO - Archivo de estado eliminado
+2025-06-23 20:00:14,546 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 20:00:15,079 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 20:00:15,096 - INFO - Captura finalizada. Paquetes procesados: 8
+2025-06-23 21:08:07,335 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 21:08:07,337 - INFO - Iniciando captura para usuario 2
+2025-06-23 21:08:07,439 - INFO - Caché DNS borrada correctamente
+2025-06-23 21:08:07,442 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 21:08:07,444 - INFO - Archivo de estado eliminado
+2025-06-23 21:08:07,445 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 21:08:14,180 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 21:08:14,182 - INFO - Captura finalizada. Paquetes procesados: 1
+2025-06-23 21:11:52,482 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 21:11:52,483 - INFO - Iniciando captura para usuario 2
+2025-06-23 21:11:52,601 - INFO - Caché DNS borrada correctamente
+2025-06-23 21:11:52,604 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 21:14:15,715 - INFO - Archivo de estado eliminado
+2025-06-23 21:14:15,718 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 21:14:16,072 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 21:14:16,080 - INFO - Captura finalizada. Paquetes procesados: 593
+2025-06-23 22:58:55,821 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 22:58:55,824 - INFO - Iniciando captura para usuario 2
+2025-06-23 22:58:55,977 - INFO - Caché DNS borrada correctamente
+2025-06-23 22:58:55,986 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 23:00:46,052 - INFO - Archivo de estado eliminado
+2025-06-23 23:00:46,103 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 23:00:46,204 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 23:00:46,207 - INFO - Captura finalizada. Paquetes procesados: 531
+2025-06-23 23:05:53,879 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 23:05:53,880 - INFO - Iniciando captura para usuario 2
+2025-06-23 23:05:54,036 - INFO - Caché DNS borrada correctamente
+2025-06-23 23:05:54,039 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 23:16:05,684 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 23:16:05,685 - INFO - Iniciando captura para usuario 2
+2025-06-23 23:16:05,780 - INFO - Caché DNS borrada correctamente
+2025-06-23 23:16:05,782 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 23:19:17,798 - INFO - Archivo de estado eliminado
+2025-06-23 23:19:17,803 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 23:19:18,391 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 23:19:18,395 - INFO - Captura finalizada. Paquetes procesados: 1145
+2025-06-24 17:28:01,483 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 17:28:01,485 - INFO - Iniciando captura para usuario 2
+2025-06-24 17:28:01,784 - INFO - Caché DNS borrada correctamente
+2025-06-24 17:28:01,788 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 17:31:46,961 - ERROR - Error en base de datos: 1264 (22003): Out of range value for column 'dnstiempo' at row 1
+2025-06-24 17:32:56,919 - INFO - Archivo de estado eliminado
+2025-06-24 17:32:56,985 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 17:32:57,091 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 17:32:57,095 - INFO - Captura finalizada. Paquetes procesados: 1478
+2025-06-24 17:59:43,641 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 17:59:43,643 - INFO - Iniciando captura para usuario 2
+2025-06-24 17:59:43,777 - INFO - Caché DNS borrada correctamente
+2025-06-24 17:59:43,780 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 18:00:32,261 - INFO - Archivo de estado eliminado
+2025-06-24 18:00:32,263 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 18:00:34,346 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 18:00:34,348 - INFO - Captura finalizada. Paquetes procesados: 166
+2025-06-24 18:06:05,576 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 18:06:05,578 - INFO - Iniciando captura para usuario 2
+2025-06-24 18:06:05,630 - INFO - Caché DNS borrada correctamente
+2025-06-24 18:06:05,636 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 18:07:09,884 - INFO - Archivo de estado eliminado
+2025-06-24 18:07:09,885 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 18:07:09,929 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 18:07:09,930 - INFO - Captura finalizada. Paquetes procesados: 398
+2025-06-24 19:29:42,279 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 19:29:42,280 - INFO - Iniciando captura para usuario 2
+2025-06-24 19:29:42,316 - INFO - Caché DNS borrada correctamente
+2025-06-24 19:29:42,317 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 19:33:08,393 - INFO - Archivo de estado eliminado
+2025-06-24 19:33:08,393 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 19:33:09,725 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 19:33:09,726 - INFO - Captura finalizada. Paquetes procesados: 1199
+2025-06-24 23:11:14,300 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 23:11:14,304 - INFO - Iniciando captura para usuario 2
+2025-06-24 23:11:14,453 - INFO - Caché DNS borrada correctamente
+2025-06-24 23:11:14,456 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 23:12:39,580 - INFO - Archivo de estado eliminado
+2025-06-24 23:12:39,587 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 23:12:40,325 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 23:12:40,326 - INFO - Captura finalizada. Paquetes procesados: 220
+2025-06-24 23:14:38,614 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 23:14:38,615 - INFO - Iniciando captura para usuario 2
+2025-06-24 23:14:38,789 - INFO - Caché DNS borrada correctamente
+2025-06-24 23:14:38,793 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 23:18:40,262 - INFO - Archivo de estado eliminado
+2025-06-24 23:18:40,287 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 23:18:40,360 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 23:18:40,392 - INFO - Captura finalizada. Paquetes procesados: 1260
+2025-06-24 23:27:22,253 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 23:27:22,254 - INFO - Iniciando captura para usuario 2
+2025-06-24 23:27:22,395 - INFO - Caché DNS borrada correctamente
+2025-06-24 23:27:22,402 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 23:29:02,754 - INFO - Archivo de estado eliminado
+2025-06-24 23:29:02,756 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 23:29:03,563 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 23:29:03,567 - INFO - Captura finalizada. Paquetes procesados: 255
+2025-06-25 11:19:41,280 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-25 11:19:41,282 - INFO - Iniciando captura para usuario 2
+2025-06-25 11:19:41,551 - INFO - Caché DNS borrada correctamente
+2025-06-25 11:19:41,554 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-25 11:22:28,750 - INFO - Archivo de estado eliminado
+2025-06-25 11:22:28,752 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-25 11:22:28,988 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-25 11:22:28,994 - INFO - Captura finalizada. Paquetes procesados: 780
+2025-06-25 11:26:18,739 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-25 11:26:18,740 - INFO - Iniciando captura para usuario 2
+2025-06-25 11:26:18,866 - INFO - Caché DNS borrada correctamente
+2025-06-25 11:26:18,872 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-25 11:30:19,519 - INFO - Archivo de estado eliminado
+2025-06-25 11:30:19,541 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-25 11:30:20,014 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-25 11:30:20,015 - INFO - Captura finalizada. Paquetes procesados: 1254
+2025-06-25 11:38:51,813 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-25 11:38:51,816 - INFO - Iniciando captura para usuario 2
+2025-06-25 11:38:52,002 - INFO - Caché DNS borrada correctamente
+2025-06-25 11:38:52,008 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-25 11:43:11,551 - INFO - Archivo de estado eliminado
+2025-06-25 11:43:11,552 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-25 11:43:11,819 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-25 11:43:11,820 - INFO - Captura finalizada. Paquetes procesados: 1276
+2025-06-25 12:41:19,855 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-25 12:41:19,855 - INFO - Iniciando captura para usuario 2
+2025-06-25 12:41:19,946 - INFO - Caché DNS borrada correctamente
+2025-06-25 12:41:19,952 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-25 12:44:46,986 - INFO - Archivo de estado eliminado
+2025-06-25 12:44:47,110 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-25 12:44:47,183 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-25 12:44:47,184 - INFO - Captura finalizada. Paquetes procesados: 1209
+2025-06-25 12:52:18,387 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-25 12:52:18,388 - INFO - Iniciando captura para usuario 2
+2025-06-25 12:52:18,553 - INFO - Caché DNS borrada correctamente
+2025-06-25 12:52:18,555 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-25 12:53:40,834 - INFO - Archivo de estado eliminado
+2025-06-25 12:53:40,835 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-25 12:53:40,902 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-25 12:53:40,903 - INFO - Captura finalizada. Paquetes procesados: 352
+2025-06-25 13:03:11,010 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-25 13:03:11,011 - INFO - Iniciando captura para usuario 2
+2025-06-25 13:03:11,123 - INFO - Caché DNS borrada correctamente
+2025-06-25 13:03:11,130 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-25 13:07:38,036 - INFO - Archivo de estado eliminado
+2025-06-25 13:07:38,042 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-25 13:07:38,090 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-25 13:07:38,148 - INFO - Captura finalizada. Paquetes procesados: 1224
+2025-06-29 19:38:42,104 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-29 19:38:42,104 - INFO - Iniciando captura para usuario 2
+2025-06-29 19:38:42,134 - INFO - Caché DNS borrada correctamente
+2025-06-29 19:38:42,135 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-29 19:40:30,509 - INFO - Archivo de estado eliminado
+2025-06-29 19:40:30,510 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-29 19:40:30,902 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-29 19:40:30,903 - INFO - Captura finalizada. Paquetes procesados: 398
+2025-06-30 20:53:42,938 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-30 20:53:42,939 - INFO - Iniciando captura para usuario 2
+2025-06-30 20:53:42,997 - INFO - Caché DNS borrada correctamente
+2025-06-30 20:53:42,999 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-30 20:57:19,799 - INFO - Archivo de estado eliminado
+2025-06-30 20:57:19,800 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-30 20:57:19,838 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-30 20:57:19,839 - INFO - Captura finalizada. Paquetes procesados: 1072
+2025-06-30 21:01:49,381 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-30 21:01:49,381 - INFO - Iniciando captura para usuario 2
+2025-06-30 21:01:49,433 - INFO - Caché DNS borrada correctamente
+2025-06-30 21:01:49,435 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-01 15:37:39,329 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-01 15:37:39,336 - INFO - Iniciando captura para usuario 2
+2025-07-01 15:37:39,672 - INFO - Caché DNS borrada correctamente
+2025-07-01 15:37:39,686 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-01 15:39:45,739 - INFO - Archivo de estado eliminado
+2025-07-01 15:39:45,748 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-01 15:39:45,792 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-01 15:39:45,795 - INFO - Captura finalizada. Paquetes procesados: 1141
+2025-07-02 14:37:07,461 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 14:37:07,461 - INFO - Iniciando captura para usuario 2
+2025-07-02 14:37:07,496 - INFO - Caché DNS borrada correctamente
+2025-07-02 14:37:07,497 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 14:39:38,114 - INFO - Archivo de estado eliminado
+2025-07-02 14:39:38,146 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 14:39:38,202 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 14:39:38,235 - INFO - Captura finalizada. Paquetes procesados: 852
+2025-07-02 14:46:59,698 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 14:46:59,698 - INFO - Iniciando captura para usuario 2
+2025-07-02 14:46:59,740 - INFO - Caché DNS borrada correctamente
+2025-07-02 14:46:59,745 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 15:18:43,959 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 15:18:43,964 - INFO - Iniciando captura para usuario 2
+2025-07-02 15:18:44,006 - INFO - Caché DNS borrada correctamente
+2025-07-02 15:18:44,007 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 15:21:48,578 - INFO - Archivo de estado eliminado
+2025-07-02 15:21:48,578 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 15:21:49,522 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 15:21:49,523 - INFO - Captura finalizada. Paquetes procesados: 1124
+2025-07-02 15:41:46,455 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 15:41:46,456 - INFO - Iniciando captura para usuario 2
+2025-07-02 15:41:46,575 - INFO - Caché DNS borrada correctamente
+2025-07-02 15:41:46,577 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 15:45:15,223 - INFO - Archivo de estado eliminado
+2025-07-02 15:45:15,224 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 15:45:16,284 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 15:45:16,286 - INFO - Captura finalizada. Paquetes procesados: 1217
+2025-07-02 16:13:50,951 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 16:13:50,952 - INFO - Iniciando captura para usuario 2
+2025-07-02 16:13:51,075 - INFO - Caché DNS borrada correctamente
+2025-07-02 16:13:51,078 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 16:16:56,653 - INFO - Archivo de estado eliminado
+2025-07-02 16:16:56,654 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 16:16:57,173 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 16:16:57,178 - INFO - Captura finalizada. Paquetes procesados: 1148
+2025-07-02 16:23:05,447 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 16:23:05,448 - INFO - Iniciando captura para usuario 2
+2025-07-02 16:23:05,668 - INFO - Caché DNS borrada correctamente
+2025-07-02 16:23:05,672 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 16:23:58,788 - INFO - Archivo de estado eliminado
+2025-07-02 16:23:58,790 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 16:23:59,289 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 16:23:59,291 - INFO - Captura finalizada. Paquetes procesados: 132
+2025-07-02 16:25:46,408 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 16:25:46,410 - INFO - Iniciando captura para usuario 2
+2025-07-02 16:25:46,526 - INFO - Caché DNS borrada correctamente
+2025-07-02 16:25:46,536 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 16:26:40,554 - INFO - Archivo de estado eliminado
+2025-07-02 16:26:40,819 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 16:26:40,914 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 16:26:40,915 - INFO - Captura finalizada. Paquetes procesados: 147
+2025-07-02 16:48:26,614 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 16:48:26,615 - INFO - Iniciando captura para usuario 2
+2025-07-02 16:48:26,787 - INFO - Caché DNS borrada correctamente
+2025-07-02 16:48:26,789 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 16:51:12,174 - ERROR - Error en base de datos: 1264 (22003): Out of range value for column 'dnstiempo' at row 1
+2025-07-02 16:52:34,179 - INFO - Archivo de estado eliminado
+2025-07-02 16:52:34,179 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 16:52:34,581 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 16:52:34,586 - INFO - Captura finalizada. Paquetes procesados: 1342
+2025-07-02 20:13:02,042 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-02 20:13:02,043 - INFO - Iniciando captura para usuario 2
+2025-07-02 20:13:02,082 - INFO - Caché DNS borrada correctamente
+2025-07-02 20:13:02,083 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-02 20:16:34,531 - INFO - Archivo de estado eliminado
+2025-07-02 20:16:34,533 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-02 20:16:34,922 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-02 20:16:34,923 - INFO - Captura finalizada. Paquetes procesados: 1110
+2025-07-03 13:10:18,032 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-03 13:10:18,034 - INFO - Iniciando captura para usuario 2
+2025-07-03 13:10:18,132 - INFO - Caché DNS borrada correctamente
+2025-07-03 13:10:18,141 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-03 13:10:38,174 - INFO - Archivo de estado eliminado
+2025-07-03 13:10:38,175 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-03 13:10:38,251 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-03 13:10:38,253 - INFO - Captura finalizada. Paquetes procesados: 36
+2025-07-03 13:17:06,480 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-03 13:17:06,484 - INFO - Iniciando captura para usuario 2
+2025-07-03 13:17:06,587 - INFO - Caché DNS borrada correctamente
+2025-07-03 13:17:06,590 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-03 13:20:48,749 - INFO - Archivo de estado eliminado
+2025-07-03 13:20:48,758 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-03 13:20:49,191 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-03 13:20:49,192 - INFO - Captura finalizada. Paquetes procesados: 1195
+2025-07-15 22:00:02,125 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-15 22:00:02,126 - INFO - Iniciando captura para usuario 2
+2025-07-15 22:00:02,197 - INFO - Caché DNS borrada correctamente
+2025-07-15 22:00:02,198 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-15 22:08:18,570 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-15 22:08:18,570 - INFO - Iniciando captura para usuario 2
+2025-07-15 22:08:18,635 - INFO - Caché DNS borrada correctamente
+2025-07-15 22:08:18,636 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-15 22:10:28,552 - INFO - Archivo de estado eliminado
+2025-07-15 22:10:28,561 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-15 22:10:29,765 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-15 22:10:29,768 - INFO - Captura finalizada. Paquetes procesados: 595
+2025-07-15 22:12:43,020 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-15 22:12:43,022 - INFO - Iniciando captura para usuario 2
+2025-07-15 22:12:43,143 - INFO - Caché DNS borrada correctamente
+2025-07-15 22:12:43,168 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-15 22:14:46,124 - INFO - Archivo de estado eliminado
+2025-07-15 22:14:46,125 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-15 22:14:46,358 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-15 22:14:46,363 - INFO - Captura finalizada. Paquetes procesados: 1312
+2025-07-15 22:31:48,364 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-15 22:31:48,364 - INFO - Iniciando captura para usuario 2
+2025-07-15 22:31:48,423 - INFO - Caché DNS borrada correctamente
+2025-07-15 22:31:48,424 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-15 22:36:40,191 - INFO - Archivo de estado eliminado
+2025-07-15 22:36:40,200 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-15 22:36:40,832 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-15 22:36:40,833 - INFO - Captura finalizada. Paquetes procesados: 1064
+2025-07-18 13:11:41,366 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 13:11:41,367 - INFO - Iniciando captura para usuario 2
+2025-07-18 13:11:41,425 - INFO - Caché DNS borrada correctamente
+2025-07-18 13:11:41,427 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-18 13:16:04,924 - INFO - Archivo de estado eliminado
+2025-07-18 13:16:04,925 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-18 13:16:05,137 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-18 13:16:05,138 - INFO - Captura finalizada. Paquetes procesados: 1097
+2025-07-18 22:16:24,806 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 22:16:24,806 - INFO - Iniciando captura para usuario 2
+2025-07-18 22:16:24,831 - INFO - Caché DNS borrada correctamente
+2025-07-18 22:16:24,833 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-18 22:20:23,529 - INFO - Archivo de estado eliminado
+2025-07-18 22:20:23,530 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-18 22:20:23,806 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-18 22:20:23,807 - INFO - Captura finalizada. Paquetes procesados: 1067
+2025-07-18 22:24:32,098 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 22:24:32,098 - INFO - Iniciando captura para usuario 2
+2025-07-18 22:24:32,124 - INFO - Caché DNS borrada correctamente
+2025-07-18 22:24:32,125 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-18 22:28:16,600 - INFO - Archivo de estado eliminado
+2025-07-18 22:28:16,606 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-18 22:28:16,650 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-18 22:28:16,651 - INFO - Captura finalizada. Paquetes procesados: 852
+2025-07-18 22:31:55,786 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 22:31:55,786 - INFO - Iniciando captura para usuario 2
+2025-07-18 22:31:55,812 - INFO - Caché DNS borrada correctamente
+2025-07-18 22:31:55,813 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-19 13:19:32,772 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-19 13:19:32,773 - INFO - Iniciando captura para usuario 2
+2025-07-19 13:19:32,817 - INFO - Caché DNS borrada correctamente
+2025-07-19 13:19:32,850 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-19 13:24:07,528 - INFO - Archivo de estado eliminado
+2025-07-19 13:24:07,549 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-19 13:24:07,594 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-19 13:24:07,595 - INFO - Captura finalizada. Paquetes procesados: 1122
+2025-07-19 13:38:30,209 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-19 13:38:30,210 - INFO - Iniciando captura para usuario 2
+2025-07-19 13:38:30,270 - INFO - Caché DNS borrada correctamente
+2025-07-19 13:38:30,275 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-19 13:59:12,069 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-19 13:59:12,070 - INFO - Iniciando captura para usuario 2
+2025-07-19 13:59:12,121 - INFO - Caché DNS borrada correctamente
+2025-07-19 13:59:12,123 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-19 16:53:27,106 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-19 16:53:27,106 - INFO - Iniciando captura para usuario 2
+2025-07-19 16:53:27,157 - INFO - Caché DNS borrada correctamente
+2025-07-19 16:53:27,159 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-19 22:12:26,936 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-19 22:12:26,936 - INFO - Iniciando captura para usuario 2
+2025-07-19 22:12:26,987 - INFO - Caché DNS borrada correctamente
+2025-07-19 22:12:26,989 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-21 17:34:07,404 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-21 17:34:07,405 - INFO - Iniciando captura para usuario 2
+2025-07-21 17:34:07,465 - INFO - Caché DNS borrada correctamente
+2025-07-21 17:34:07,467 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-21 17:34:53,474 - INFO - Archivo de estado eliminado
+2025-07-21 17:34:53,479 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-21 17:34:53,522 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-21 17:34:53,523 - INFO - Captura finalizada. Paquetes procesados: 584

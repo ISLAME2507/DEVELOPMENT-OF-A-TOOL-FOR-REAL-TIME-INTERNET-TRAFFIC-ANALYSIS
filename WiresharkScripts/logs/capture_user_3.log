@@ -1,0 +1,546 @@
+2025-04-24 11:51:49,759 - INFO - Sistema Operativo: Windows 10
+2025-04-24 11:51:49,761 - INFO - Python Version: 3.13.2
+2025-04-24 11:51:49,761 - INFO - Directorio de Trabajo: C:\WiresharkScripts
+2025-04-24 11:51:49,762 - INFO - Ruta del Script: C:\WiresharkScripts\script.py
+2025-04-24 11:51:49,762 - INFO - Scapy Version: 2.6.1
+2025-04-24 11:51:49,827 - INFO - Iniciando captura para usuario 3 en interfaz Wi-Fi
+2025-04-24 11:51:49,842 - INFO - Datos anteriores borrados para usuario 3
+2025-04-24 11:51:58,316 - INFO - Captura finalizada. Paquetes procesados: 11
+2025-04-25 15:23:17,837 - INFO - Iniciando captura para usuario 3
+2025-04-25 15:35:53,826 - INFO - Iniciando captura para usuario 3
+2025-04-25 16:21:34,500 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-25 16:21:34,504 - INFO - Iniciando captura para usuario 3
+2025-04-25 16:21:34,541 - INFO - Caché DNS borrada correctamente
+2025-04-25 16:21:34,542 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-25 19:02:01,492 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-25 19:02:01,494 - INFO - Iniciando captura para usuario 3
+2025-04-25 19:02:01,682 - INFO - Caché DNS borrada correctamente
+2025-04-25 19:02:01,687 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-25 19:02:06,390 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'numero' doesn't have a default value
+2025-04-25 19:02:06,393 - INFO - Captura finalizada. Paquetes procesados: 7
+2025-04-25 20:16:52,589 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-25 20:16:52,590 - INFO - Iniciando captura para usuario 3
+2025-04-25 20:16:52,644 - INFO - Caché DNS borrada correctamente
+2025-04-25 20:16:52,649 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-25 20:16:59,926 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'numero' doesn't have a default value
+2025-04-25 20:16:59,929 - INFO - Captura finalizada. Paquetes procesados: 4
+2025-04-26 14:30:20,191 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 14:30:20,192 - INFO - Iniciando captura para usuario 3
+2025-04-26 14:30:20,231 - INFO - Caché DNS borrada correctamente
+2025-04-26 14:30:20,232 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:30:20,399 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '1-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:30:20,423 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '2-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:30:20,475 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:30:20,525 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '4-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:37:23,427 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 14:37:23,428 - INFO - Iniciando captura para usuario 3
+2025-04-26 14:37:23,470 - INFO - Caché DNS borrada correctamente
+2025-04-26 14:37:23,471 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:49:56,549 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 14:49:56,549 - INFO - Iniciando captura para usuario 3
+2025-04-26 14:49:56,593 - INFO - Caché DNS borrada correctamente
+2025-04-26 14:49:56,604 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:49:57,640 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '1-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:49:57,648 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '2-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:49:59,843 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:01,789 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '4-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:01,840 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '5-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:01,888 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '6-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:02,160 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '7-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:02,586 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '8-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:02,648 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '9-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:02,699 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '10-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:03,049 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '11-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:03,100 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '12-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:03,128 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '13-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:03,364 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '14-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:03,406 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '15-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:04,282 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '16-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:04,307 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '17-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:04,776 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '18-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:04,854 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '19-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:06,486 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '20-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:06,590 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '21-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:06,768 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '22-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:06,827 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '23-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:08,360 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '24-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:08,416 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '25-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:08,542 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '26-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:08,594 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '27-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:08,641 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '28-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:08,691 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '29-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:09,855 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '30-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:11,153 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '31-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:11,465 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '32-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:11,574 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '33-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:12,846 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '34-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:12,895 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '35-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:12,942 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '36-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:12,995 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '37-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:13,045 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '38-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:13,381 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '39-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:13,470 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '40-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:14,865 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '41-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:14,996 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '42-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:15,648 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '43-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:15,707 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '44-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:15,829 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '45-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:15,852 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '46-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:18,071 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '47-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:18,114 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '48-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:18,163 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '49-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:18,215 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '50-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:18,368 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '51-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:18,434 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '52-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:19,043 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '53-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:19,113 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '54-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:19,167 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '55-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:19,295 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '56-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:19,898 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '57-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:22,467 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '58-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:22,580 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '59-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:22,747 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '60-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:22,824 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '61-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:24,474 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '62-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:24,535 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '63-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:24,598 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '64-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:24,910 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '65-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:25,666 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '66-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:27,458 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '67-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:27,600 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '68-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:27,659 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '69-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:27,849 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '70-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:27,909 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '71-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:28,522 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '72-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:29,431 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '73-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:29,512 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '74-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:29,951 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '75-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:30,929 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '76-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:31,057 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '77-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:32,172 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '78-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:32,215 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '79-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:32,265 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '80-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:32,806 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '81-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:33,146 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '82-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:33,568 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '83-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:33,645 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '84-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:33,850 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '85-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:33,913 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '86-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:33,987 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '87-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:34,200 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '88-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:34,285 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '89-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:34,679 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '90-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:34,862 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '91-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:34,970 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '92-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:35,025 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '93-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:35,202 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '94-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:35,569 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '95-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:35,637 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '96-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:37,023 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '97-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:37,125 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '98-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:37,233 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '99-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:37,283 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '100-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:37,455 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '101-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:37,897 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '102-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:38,461 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '103-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:38,515 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '104-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:38,585 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '105-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:38,927 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '106-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:38,997 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '107-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:40,056 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '108-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:41,712 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '109-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:41,761 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '110-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:42,774 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '111-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:43,459 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '112-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:43,619 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '113-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:43,925 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '114-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:44,000 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '115-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:44,763 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '116-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:44,818 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '117-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:45,065 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '118-3' for key 'datos_paquetes.PRIMARY'
+2025-04-26 14:50:47,884 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 14:50:47,887 - INFO - Captura finalizada. Paquetes procesados: 118
+2025-04-26 14:51:07,934 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 14:51:07,935 - INFO - Iniciando captura para usuario 3
+2025-04-26 14:51:07,960 - INFO - Caché DNS borrada correctamente
+2025-04-26 14:51:07,961 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 14:51:53,992 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 14:51:54,099 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 14:51:54,100 - INFO - Captura finalizada. Paquetes procesados: 83
+2025-04-26 15:06:51,639 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 15:06:51,643 - INFO - Iniciando captura para usuario 3
+2025-04-26 15:06:51,672 - INFO - Caché DNS borrada correctamente
+2025-04-26 15:06:51,673 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 15:07:44,737 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 15:07:44,767 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 15:07:44,769 - INFO - Captura finalizada. Paquetes procesados: 140
+2025-04-26 15:13:34,312 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 15:13:34,312 - INFO - Iniciando captura para usuario 3
+2025-04-26 15:13:34,402 - INFO - Caché DNS borrada correctamente
+2025-04-26 15:13:34,403 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 15:14:56,607 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 15:14:56,720 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 15:14:56,721 - INFO - Captura finalizada. Paquetes procesados: 187
+2025-04-26 16:12:09,010 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 16:12:09,015 - INFO - Iniciando captura para usuario 3
+2025-04-26 16:12:09,132 - INFO - Caché DNS borrada correctamente
+2025-04-26 16:12:09,136 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 16:13:03,536 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 16:13:04,554 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 16:13:04,555 - INFO - Captura finalizada. Paquetes procesados: 78
+2025-04-26 21:29:40,620 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-26 21:29:40,620 - INFO - Iniciando captura para usuario 3
+2025-04-26 21:29:40,672 - INFO - Caché DNS borrada correctamente
+2025-04-26 21:29:40,673 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-26 21:31:43,370 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-26 21:31:44,540 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-26 21:31:44,542 - INFO - Captura finalizada. Paquetes procesados: 250
+2025-04-27 15:15:14,465 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-27 15:15:14,469 - INFO - Iniciando captura para usuario 3
+2025-04-27 15:15:14,535 - INFO - Caché DNS borrada correctamente
+2025-04-27 15:15:14,536 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-27 15:17:06,647 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-27 15:17:06,788 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-27 15:17:06,789 - INFO - Captura finalizada. Paquetes procesados: 943
+2025-04-27 20:21:20,079 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-27 20:21:20,079 - INFO - Iniciando captura para usuario 3
+2025-04-27 20:21:20,154 - INFO - Caché DNS borrada correctamente
+2025-04-27 20:21:20,157 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-27 20:24:17,083 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-27 20:24:17,439 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-27 20:24:17,442 - INFO - Captura finalizada. Paquetes procesados: 681
+2025-04-27 20:58:57,711 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-27 20:58:57,712 - INFO - Iniciando captura para usuario 3
+2025-04-27 20:58:57,781 - INFO - Caché DNS borrada correctamente
+2025-04-27 20:58:57,783 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-27 20:59:08,820 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-27 20:59:08,835 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-27 20:59:08,836 - INFO - Captura finalizada. Paquetes procesados: 11
+2025-04-27 20:59:42,554 - INFO - Base de datos GeoIP cargada correctamente
+2025-04-27 20:59:42,555 - INFO - Iniciando captura para usuario 3
+2025-04-27 20:59:42,624 - INFO - Caché DNS borrada correctamente
+2025-04-27 20:59:42,626 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-04-27 21:00:20,697 - INFO - Señal de detención detectada. Finalizando captura.
+2025-04-27 21:00:22,306 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-04-27 21:00:22,308 - INFO - Captura finalizada. Paquetes procesados: 58
+2025-05-12 13:50:09,555 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-12 13:50:09,556 - INFO - Iniciando captura para usuario 3
+2025-05-12 13:50:09,621 - INFO - Caché DNS borrada correctamente
+2025-05-12 13:50:09,622 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-12 13:52:03,520 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-12 13:52:04,716 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-12 13:52:04,718 - INFO - Captura finalizada. Paquetes procesados: 472
+2025-05-12 13:54:23,972 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-12 13:54:23,973 - INFO - Iniciando captura para usuario 3
+2025-05-12 13:54:24,024 - INFO - Caché DNS borrada correctamente
+2025-05-12 13:54:24,025 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-12 13:54:58,340 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-12 13:54:58,558 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-12 13:54:58,558 - INFO - Captura finalizada. Paquetes procesados: 126
+2025-05-12 13:58:33,250 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-12 13:58:33,251 - INFO - Iniciando captura para usuario 3
+2025-05-12 13:58:33,304 - INFO - Caché DNS borrada correctamente
+2025-05-12 13:58:33,305 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-12 14:02:16,866 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-12 14:02:17,110 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-12 14:02:17,111 - INFO - Captura finalizada. Paquetes procesados: 1103
+2025-05-12 14:02:34,167 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-12 14:02:34,168 - INFO - Iniciando captura para usuario 3
+2025-05-12 14:02:34,233 - INFO - Caché DNS borrada correctamente
+2025-05-12 14:02:34,236 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-12 14:02:53,793 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-12 14:02:54,340 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-12 14:02:54,349 - INFO - Captura finalizada. Paquetes procesados: 74
+2025-05-12 14:05:22,375 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-12 14:05:22,375 - INFO - Iniciando captura para usuario 3
+2025-05-12 14:05:22,460 - INFO - Caché DNS borrada correctamente
+2025-05-12 14:05:22,462 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-12 14:06:03,950 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-12 14:06:04,372 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-12 14:06:04,375 - INFO - Captura finalizada. Paquetes procesados: 168
+2025-05-12 14:14:13,383 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-12 14:14:13,383 - INFO - Iniciando captura para usuario 3
+2025-05-12 14:14:13,456 - INFO - Caché DNS borrada correctamente
+2025-05-12 14:14:13,458 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-12 14:14:56,876 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-12 14:14:58,082 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-12 14:14:58,095 - INFO - Captura finalizada. Paquetes procesados: 119
+2025-05-21 17:53:32,655 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-21 17:53:32,656 - INFO - Iniciando captura para usuario 3
+2025-05-21 17:53:32,749 - INFO - Caché DNS borrada correctamente
+2025-05-21 17:53:32,751 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-21 17:56:06,947 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-21 17:56:07,165 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-21 17:56:07,173 - INFO - Captura finalizada. Paquetes procesados: 777
+2025-05-22 12:12:10,067 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 12:12:10,071 - INFO - Iniciando captura para usuario 3
+2025-05-22 12:12:10,113 - INFO - Caché DNS borrada correctamente
+2025-05-22 12:12:10,114 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 12:14:13,442 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 12:14:13,853 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 12:14:13,854 - INFO - Captura finalizada. Paquetes procesados: 416
+2025-05-22 12:22:04,332 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 12:22:04,332 - INFO - Iniciando captura para usuario 3
+2025-05-22 12:22:04,396 - INFO - Caché DNS borrada correctamente
+2025-05-22 12:22:04,398 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 12:25:52,277 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 12:25:52,469 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 12:25:52,472 - INFO - Captura finalizada. Paquetes procesados: 690
+2025-05-22 14:01:08,466 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 14:01:08,467 - INFO - Iniciando captura para usuario 3
+2025-05-22 14:01:08,523 - INFO - Caché DNS borrada correctamente
+2025-05-22 14:01:08,525 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 14:04:31,012 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 14:04:31,207 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 14:04:31,208 - INFO - Captura finalizada. Paquetes procesados: 1209
+2025-05-22 14:42:46,849 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 14:42:46,849 - INFO - Iniciando captura para usuario 3
+2025-05-22 14:42:46,916 - INFO - Caché DNS borrada correctamente
+2025-05-22 14:42:46,918 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 14:45:42,721 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 14:45:42,743 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 14:45:42,744 - INFO - Captura finalizada. Paquetes procesados: 1068
+2025-05-22 14:49:52,438 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 14:49:52,439 - INFO - Iniciando captura para usuario 3
+2025-05-22 14:49:52,495 - INFO - Caché DNS borrada correctamente
+2025-05-22 14:49:52,497 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 14:52:52,663 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 14:52:52,717 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 14:52:52,718 - INFO - Captura finalizada. Paquetes procesados: 1091
+2025-05-22 15:01:25,628 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 15:01:25,629 - INFO - Iniciando captura para usuario 3
+2025-05-22 15:01:25,698 - INFO - Caché DNS borrada correctamente
+2025-05-22 15:01:25,700 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 15:05:46,876 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 15:05:46,893 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 15:05:46,896 - INFO - Captura finalizada. Paquetes procesados: 1100
+2025-05-22 15:11:32,378 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 15:11:32,379 - INFO - Iniciando captura para usuario 3
+2025-05-22 15:11:32,424 - INFO - Caché DNS borrada correctamente
+2025-05-22 15:11:32,426 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 19:18:38,853 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 19:18:38,855 - INFO - Iniciando captura para usuario 3
+2025-05-22 19:18:39,071 - INFO - Caché DNS borrada correctamente
+2025-05-22 19:18:39,074 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 19:22:00,282 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 19:22:01,064 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 19:22:01,066 - INFO - Captura finalizada. Paquetes procesados: 1236
+2025-05-22 22:37:14,022 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-22 22:37:14,024 - INFO - Iniciando captura para usuario 3
+2025-05-22 22:37:14,103 - INFO - Caché DNS borrada correctamente
+2025-05-22 22:37:14,107 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-22 22:40:29,560 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-22 22:40:29,791 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-22 22:40:29,792 - INFO - Captura finalizada. Paquetes procesados: 1131
+2025-05-25 18:24:15,586 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-25 18:24:15,587 - INFO - Iniciando captura para usuario 3
+2025-05-25 18:24:15,700 - INFO - Caché DNS borrada correctamente
+2025-05-25 18:24:15,702 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-25 18:27:37,003 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-25 18:27:38,049 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-25 18:27:38,050 - INFO - Captura finalizada. Paquetes procesados: 1122
+2025-05-25 18:57:52,363 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-25 18:57:52,363 - INFO - Iniciando captura para usuario 3
+2025-05-25 18:57:52,466 - INFO - Caché DNS borrada correctamente
+2025-05-25 18:57:52,470 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-25 19:01:10,769 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-25 19:01:11,604 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-25 19:01:11,621 - INFO - Captura finalizada. Paquetes procesados: 1215
+2025-05-25 23:21:06,310 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-25 23:21:06,311 - INFO - Iniciando captura para usuario 3
+2025-05-25 23:21:06,416 - INFO - Caché DNS borrada correctamente
+2025-05-25 23:21:06,420 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-25 23:23:43,497 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-25 23:23:43,559 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-25 23:23:43,561 - INFO - Captura finalizada. Paquetes procesados: 1051
+2025-05-25 23:35:51,005 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-25 23:35:51,007 - INFO - Iniciando captura para usuario 3
+2025-05-25 23:35:51,206 - INFO - Caché DNS borrada correctamente
+2025-05-25 23:35:51,207 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 12:06:03,761 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 12:06:03,761 - INFO - Iniciando captura para usuario 3
+2025-05-26 12:06:03,860 - INFO - Caché DNS borrada correctamente
+2025-05-26 12:06:03,864 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 12:08:25,445 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 12:08:26,993 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 12:08:26,994 - INFO - Captura finalizada. Paquetes procesados: 1084
+2025-05-26 12:24:05,246 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 12:24:05,247 - INFO - Iniciando captura para usuario 3
+2025-05-26 12:24:05,299 - INFO - Caché DNS borrada correctamente
+2025-05-26 12:24:05,300 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 12:28:54,292 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 12:28:54,480 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 12:28:54,482 - INFO - Captura finalizada. Paquetes procesados: 1038
+2025-05-26 13:27:47,190 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 13:27:47,191 - INFO - Iniciando captura para usuario 3
+2025-05-26 13:27:47,244 - INFO - Caché DNS borrada correctamente
+2025-05-26 13:27:47,249 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 13:44:01,129 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 13:44:01,129 - INFO - Iniciando captura para usuario 3
+2025-05-26 13:44:01,212 - INFO - Caché DNS borrada correctamente
+2025-05-26 13:44:01,214 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 22:01:36,322 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-26 22:01:36,323 - INFO - Iniciando captura para usuario 3
+2025-05-26 22:01:36,377 - INFO - Caché DNS borrada correctamente
+2025-05-26 22:01:36,379 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-26 22:02:20,079 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-26 22:02:24,401 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-26 22:02:24,402 - INFO - Captura finalizada. Paquetes procesados: 91
+2025-05-28 22:21:53,079 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-28 22:21:53,080 - INFO - Iniciando captura para usuario 3
+2025-05-28 22:21:53,166 - INFO - Caché DNS borrada correctamente
+2025-05-28 22:21:53,175 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-29 14:28:03,694 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-29 14:28:03,694 - INFO - Iniciando captura para usuario 3
+2025-05-29 14:28:03,770 - INFO - Caché DNS borrada correctamente
+2025-05-29 14:28:03,771 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-29 14:31:11,737 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-29 14:31:12,122 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-29 14:31:12,124 - INFO - Captura finalizada. Paquetes procesados: 1219
+2025-05-29 21:18:09,464 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-29 21:18:09,465 - INFO - Iniciando captura para usuario 3
+2025-05-29 21:18:09,536 - INFO - Caché DNS borrada correctamente
+2025-05-29 21:18:09,538 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-29 21:20:52,212 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-29 21:20:53,251 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-29 21:20:53,252 - INFO - Captura finalizada. Paquetes procesados: 1148
+2025-05-31 17:12:26,909 - INFO - Base de datos GeoIP cargada correctamente
+2025-05-31 17:12:26,910 - INFO - Iniciando captura para usuario 3
+2025-05-31 17:12:26,990 - INFO - Caché DNS borrada correctamente
+2025-05-31 17:12:26,992 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-05-31 17:12:36,739 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-1' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:36,771 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-2' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:36,818 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-3' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:36,875 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-4' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:36,924 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-5' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:36,971 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-6' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,017 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-7' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,073 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-8' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,123 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-9' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,173 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-10' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,223 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-11' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,273 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-12' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,324 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-13' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,374 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-14' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,424 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-15' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,475 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-16' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,526 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-17' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,575 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-18' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,625 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-19' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,676 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-20' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,726 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-21' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,777 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-22' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,827 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-23' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,881 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-24' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,929 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-25' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:37,979 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-26' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,030 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-27' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,080 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-28' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,131 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-29' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,181 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-30' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,232 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-31' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,281 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-32' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,334 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-33' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,395 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-34' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,437 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-35' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,487 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-36' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,538 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-37' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,590 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-38' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:38,635 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-39' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:39,224 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-40' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:39,278 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-41' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:39,579 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-42' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:39,765 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-43' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:39,890 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-44' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:40,072 - INFO - Señal de detención detectada. Finalizando captura.
+2025-05-31 17:12:40,301 - ERROR - Error en base de datos: 1062 (23000): Duplicate entry '3-45' for key 'datos_paquetes.PRIMARY'
+2025-05-31 17:12:40,329 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-05-31 17:12:40,331 - INFO - Captura finalizada. Paquetes procesados: 45
+2025-06-01 17:31:01,212 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-01 17:31:01,213 - INFO - Iniciando captura para usuario 3
+2025-06-01 17:31:01,279 - INFO - Caché DNS borrada correctamente
+2025-06-01 17:31:01,281 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-01 17:33:37,658 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-01 17:33:37,681 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-01 17:33:37,683 - INFO - Captura finalizada. Paquetes procesados: 800
+2025-06-01 17:42:24,444 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-01 17:42:24,444 - INFO - Iniciando captura para usuario 3
+2025-06-01 17:42:24,551 - INFO - Caché DNS borrada correctamente
+2025-06-01 17:42:24,555 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-01 17:45:42,024 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-01 17:45:42,176 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-01 17:45:42,178 - INFO - Captura finalizada. Paquetes procesados: 1359
+2025-06-19 15:09:02,479 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 15:09:02,482 - INFO - Iniciando captura para usuario 3
+2025-06-19 15:09:02,719 - INFO - Caché DNS borrada correctamente
+2025-06-19 15:09:02,723 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 15:11:08,240 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 15:11:08,276 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 15:11:08,277 - INFO - Captura finalizada. Paquetes procesados: 622
+2025-06-19 15:28:09,644 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-19 15:28:09,644 - INFO - Iniciando captura para usuario 3
+2025-06-19 15:28:09,705 - INFO - Caché DNS borrada correctamente
+2025-06-19 15:28:09,706 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-19 15:29:40,006 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-19 15:29:40,178 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-19 15:29:40,180 - INFO - Captura finalizada. Paquetes procesados: 407
+2025-06-20 17:54:50,175 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-20 17:54:50,176 - INFO - Iniciando captura para usuario 3
+2025-06-20 17:54:50,240 - INFO - Caché DNS borrada correctamente
+2025-06-20 17:54:50,241 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 20:02:39,848 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-23 20:02:39,849 - INFO - Iniciando captura para usuario 3
+2025-06-23 20:02:39,894 - INFO - Caché DNS borrada correctamente
+2025-06-23 20:02:39,895 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-23 20:02:42,897 - INFO - Archivo de estado eliminado
+2025-06-23 20:02:42,898 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-23 20:02:44,072 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-23 20:02:44,073 - INFO - Captura finalizada. Paquetes procesados: 4
+2025-06-24 18:08:56,169 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 18:08:56,170 - INFO - Iniciando captura para usuario 3
+2025-06-24 18:08:56,240 - INFO - Caché DNS borrada correctamente
+2025-06-24 18:08:56,244 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 18:12:14,184 - INFO - Archivo de estado eliminado
+2025-06-24 18:12:14,186 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 18:12:14,238 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 18:12:14,239 - INFO - Captura finalizada. Paquetes procesados: 770
+2025-06-24 18:19:29,292 - INFO - Base de datos GeoIP cargada correctamente
+2025-06-24 18:19:29,292 - INFO - Iniciando captura para usuario 3
+2025-06-24 18:19:29,366 - INFO - Caché DNS borrada correctamente
+2025-06-24 18:19:29,375 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-06-24 18:23:04,651 - INFO - Archivo de estado eliminado
+2025-06-24 18:23:04,665 - INFO - Señal de detención detectada. Finalizando captura.
+2025-06-24 18:23:05,259 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-06-24 18:23:05,259 - INFO - Captura finalizada. Paquetes procesados: 1200
+2025-07-05 17:08:56,512 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-05 17:08:56,513 - INFO - Iniciando captura para usuario 3
+2025-07-05 17:08:56,538 - INFO - Caché DNS borrada correctamente
+2025-07-05 17:08:56,538 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-05 17:17:48,642 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-05 17:17:48,642 - INFO - Iniciando captura para usuario 3
+2025-07-05 17:17:48,668 - INFO - Caché DNS borrada correctamente
+2025-07-05 17:17:48,669 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-05 17:20:14,804 - INFO - Archivo de estado eliminado
+2025-07-05 17:20:14,812 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-05 17:20:14,880 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-05 17:20:14,883 - INFO - Captura finalizada. Paquetes procesados: 1169
+2025-07-18 22:42:38,023 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 22:42:38,025 - INFO - Iniciando captura para usuario 3
+2025-07-18 22:42:38,063 - INFO - Caché DNS borrada correctamente
+2025-07-18 22:42:38,064 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-18 22:44:39,234 - INFO - Archivo de estado eliminado
+2025-07-18 22:44:39,235 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-18 22:44:39,493 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-18 22:44:39,494 - INFO - Captura finalizada. Paquetes procesados: 453
+2025-07-18 22:47:39,613 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 22:47:39,614 - INFO - Iniciando captura para usuario 3
+2025-07-18 22:47:39,637 - INFO - Caché DNS borrada correctamente
+2025-07-18 22:47:39,641 - INFO - Captura iniciada en interfaz Wi-Fi
+2025-07-18 22:52:34,997 - INFO - Archivo de estado eliminado
+2025-07-18 22:52:34,998 - INFO - Señal de detención detectada. Finalizando captura.
+2025-07-18 22:52:36,046 - ERROR - Error registrando fin de captura: 1364 (HY000): Field 'tiempo' doesn't have a default value
+2025-07-18 22:52:36,047 - INFO - Captura finalizada. Paquetes procesados: 751
+2025-07-18 23:02:25,389 - INFO - Base de datos GeoIP cargada correctamente
+2025-07-18 23:02:25,390 - INFO - Iniciando captura para usuario 3
+2025-07-18 23:02:25,432 - INFO - Caché DNS borrada correctamente
+2025-07-18 23:02:25,433 - INFO - Captura iniciada en interfaz Wi-Fi

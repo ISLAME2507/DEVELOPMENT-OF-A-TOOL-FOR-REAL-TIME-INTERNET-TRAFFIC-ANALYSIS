@@ -1,0 +1,66 @@
+
+
+==== 2025-04-25 14:16:46 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-25 14:16:50 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-25 14:16:56 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-25 14:20:43 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-25 14:20:44 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
+
+
+==== 2025-04-25 14:22:33 ====
+Iniciando proceso para usuario: 2
+Ejecutando tarea: schtasks /RUN /TN "CapturaWireshark_Usuario2"
+Resultado de la tarea: 0
+Salida: Array
+(
+    [0] => CORRECTO: se ha intentado ejecutar la tarea programada "CapturaWireshark_Usuario2".
+)
+
